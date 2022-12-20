@@ -4,7 +4,7 @@
 npm install
 
 # Set the GitHub repo name and build the Next.js app
-GITHUB_REPO="" npx next build &&
+GITHUB_REPO="webinar" npx next build &&
 
 # Export static files from the build (by default to the `out` dir)
 npx next export &&
